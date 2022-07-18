@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@400;500&display=swap');
+
+@import 'variables';
+@import 'mixins';
+
+* {
+  font-family: $font-text;
+  margin: 0;
+}
+
+.page-container {
+  width: $width-container;
+  margin: 0 auto;
+}
