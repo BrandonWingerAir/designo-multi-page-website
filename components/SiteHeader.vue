@@ -1,6 +1,6 @@
 <template>
   <header>
-    <MainNavbar/>
+    <SiteNavbar/>
   </header>
 </template>
 

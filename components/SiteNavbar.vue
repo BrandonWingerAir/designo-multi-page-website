@@ -12,7 +12,9 @@
 
 <style lang="scss" scoped>
   nav {
-    @include logo-nav-menu-container;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
   }
 
   img {
@@ -23,7 +25,6 @@
   div > a {
     display: flex;
   }
-
 
   ul {
     font-size: 14px;
