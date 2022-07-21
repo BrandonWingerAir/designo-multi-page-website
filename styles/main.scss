@@ -8,7 +8,11 @@
   margin: 0;
 }
 
-.page-container {
-  width: $width-container;
+a {
+  text-decoration: none;
+}
+
+.content-margin {
+  width: $container-width;
   margin: 0 auto;
 }

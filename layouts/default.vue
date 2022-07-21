@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="page-container">
+    <div class="content-margin">
       <SiteHeader/>
       <Nuxt/>
     </div>
