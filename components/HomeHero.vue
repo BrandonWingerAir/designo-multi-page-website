@@ -50,9 +50,7 @@
     }
 
     p {
-      font-size: $body-text-size;
-      line-height: $body-text-height;
-      font-weight: $body-font-weight;
+      @include body-text;
       width: 445px;
       margin-bottom: 45px;
     }

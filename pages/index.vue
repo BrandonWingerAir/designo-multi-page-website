@@ -1,12 +1,13 @@
 <template>
   <main>
-    <HomeHero class="home-section"/>
-    <HomeServices class="home-section"/>
+    <HomeHero/>
+    <HomeServices/>
+    <HomeFeatures/>
   </main>
 </template>
 
 <style lang="scss" scoped>
-.home-section {
+main > section {
   margin-bottom: 160px;
 }
 </style>
