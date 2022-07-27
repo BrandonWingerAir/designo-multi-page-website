@@ -1,0 +1,50 @@
+<template>
+  <section>
+    <div class="card-container">
+      <div>
+        <h2>
+          Let’s talk about <br>
+          your project
+        </h2>
+        <p>
+          Ready to take it to the next level? Contact us today and find out how <br>
+          our expertise can help your business grow.
+        </p>
+      </div>
+    </div>
+    <div class="card-container">
+      <button class="btn-light">Get in touch</button>
+    </div>
+  </section>
+</template>
+
+<style lang="scss" scoped>
+section {
+  background: url('/assets/shared/desktop/bg-pattern-call-to-action.svg') no-repeat 235px center $primary-peach;
+  height: 292px;
+  border-radius: 15px;
+  color: $primary-white;
+  display: grid;
+  grid: 100% / 2fr 1fr;
+  bottom: -72px;
+
+  .card-container {
+    display: flex;
+    align-items: center;
+    padding: 0 95px;
+
+    &:last-of-type {
+      justify-content: right;
+    }
+  }
+
+  h2 {
+    font-weight: 500;
+    margin-bottom: 15px;
+  }
+
+  p {
+    font-weight: 300;
+  }
+}
+</style>

@@ -1,13 +1,16 @@
 <template>
   <header>
-    <SiteNavbar/>
+    <SiteNavbarDark/>
   </header>
 </template>
 
 <style lang="scss" scoped>
   header {
-    padding: 64px 0;
-    width: 1111px;
+    width: $container-width;
     margin: 0 auto;
+
+    a {
+      color: $secondary-dark-grey;
+    }
   }
 </style>

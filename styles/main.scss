@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Jost:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500&display=swap');
 
 @import 'variables';
 @import 'mixins';
@@ -15,4 +15,24 @@ a {
 .content-margin {
   width: $container-width;
   margin: 0 auto;
+}
+
+h2 {
+  @include heading-2-text;
+}
+
+p {
+  @include body-text;
+}
+
+.btn-light {
+  border: none;
+  border-radius: 5px;
+  background-color: $primary-white;
+  color: $secondary-dark-grey;
+  height: 56px;
+  width: 152px;
+  font-size: 16px;
+  font-weight: 500;
+  text-transform: uppercase;
 }

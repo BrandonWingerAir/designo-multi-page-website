@@ -3,3 +3,9 @@
   line-height: $body-text-height;
   font-weight: $body-font-weight;
 }
+
+@mixin heading-2-text {
+  font-size: $heading-2-size;
+  line-height: $heading-2-height;
+  letter-spacing: $heading-2-spacing;
+}

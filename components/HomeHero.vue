@@ -7,7 +7,7 @@
       <p>
         With over 10 years in the industry, we are experienced in creating fully responsive websites, app design, and engaging brand experiences. Find out more about our services.
       </p>
-      <button>Learn more</button>
+      <button class="btn-light">Learn more</button>
     </div>
   </section>
 </template>
@@ -50,21 +50,8 @@
     }
 
     p {
-      @include body-text;
       width: 445px;
       margin-bottom: 45px;
-    }
-
-    button {
-      border: none;
-      border-radius: 5px;
-      background-color: $primary-white;
-      color: $secondary-dark-grey;
-      height: 56px;
-      width: 152px;
-      font-size: 16px;
-      font-weight: 500;
-      text-transform: uppercase;
     }
   }
 </style>

@@ -7,7 +7,11 @@
 </template>
 
 <style lang="scss" scoped>
-main > section {
+section {
   margin-bottom: 160px;
+
+  &:last-of-type {
+    margin-bottom: 380px;
+  }
 }
 </style>

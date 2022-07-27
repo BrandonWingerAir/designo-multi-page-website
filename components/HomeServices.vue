@@ -61,9 +61,6 @@ section {
     }
 
     h2 {
-      font-size: $heading-2-size;
-      line-height: $heading-2-height;
-      letter-spacing: $heading-2-spacing;
       font-weight: 500;
       margin-bottom: 25px;
     }
