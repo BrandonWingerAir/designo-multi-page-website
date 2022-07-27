@@ -1,10 +1,10 @@
 <template>
   <footer>
     <div class="content-margin">
-      <SiteContact/>
+      <FooterContact/>
       <SiteNavbarLight/>
       <hr>
-      <div id="social-container">
+      <div class="social-container">
         <div>
           <h4>Designo Central Office</h4>
           <p>3886 Wellington Street</p>
@@ -16,7 +16,11 @@
             <a href="mailto:">M : contact@designo.co</a>
         </div>
         <div>
-          <a href="#!">SOCIAL ICONS</a>
+          <a href="#!"><img src="/assets/shared/desktop/icon-facebook.svg"></a>
+          <a href="#!"><img src="/assets/shared/desktop/icon-youtube.svg"></a>
+          <a href="#!"><img src="/assets/shared/desktop/icon-twitter.svg"></a>
+          <a href="#!"><img src="/assets/shared/desktop/icon-pinterest.svg"></a>
+          <a href="#!"><img src="/assets/shared/desktop/icon-instagram.svg"></a>
         </div>
       </div>
     </div>
@@ -46,9 +50,10 @@ footer {
     background-color: #424242;
   }
 
-  #social-container {
+  .social-container {
     display: grid;
     grid: 100% / 1fr 1fr 1fr;
+    margin-bottom: 72px;
 
     h4, p, a {
       color: #979797;
@@ -63,6 +68,16 @@ footer {
     .contact-info a {
       font-weight: 600;
       display: block;
+    }
+
+    > :last-child {
+      display: flex;
+      justify-content: flex-end;
+      align-items: flex-end;
+
+      a {
+        margin-left: 16px;
+      }
     }
   }
 }
