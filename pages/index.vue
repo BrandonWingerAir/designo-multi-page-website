@@ -21,7 +21,6 @@ main {
   height: 594px;
   width: 100%;
   background: url('/assets/shared/desktop/bg-pattern-leaf.svg') center no-repeat;
-  z-index: 0;
 }
 
 section {

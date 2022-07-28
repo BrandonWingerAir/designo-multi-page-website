@@ -30,17 +30,12 @@
 <style lang="scss" scoped>
 footer {
   background: $primary-black;
-  color: $primary-white;
   width: 100%;
   height: 393px;
 
   > div:first-child {
     position: relative;
     top: -220px;
-  }
-
-  a {
-    color: $primary-white;
   }
 
   hr {
@@ -54,10 +49,7 @@ footer {
     display: grid;
     grid: 100% / 1fr 1fr 1fr;
     margin-bottom: 72px;
-
-    h4, p, a {
-      color: #979797;
-    }
+    color: #979797;
 
     h4 {
       font-size: $body-text-size;
@@ -66,6 +58,7 @@ footer {
     }
 
     .contact-info a {
+      color: #979797;
       font-weight: 600;
       display: block;
     }
