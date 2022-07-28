@@ -23,6 +23,10 @@ a:hover, button:hover {
 .content-margin {
   width: $container-width;
   margin: 0 auto;
+
+  @media only screen and (max-width: $tablet-max-width-landscape) {
+    max-width: $container-width-tablet;
+  }
 }
 
 h2 {

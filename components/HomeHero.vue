@@ -1,13 +1,15 @@
 <template>
   <section>
-    <img id="circle-bg" src="~/static/assets/home/desktop/bg-pattern-hero-home.svg"/>
-    <img id="phone-bg" src="~/static/assets/home/desktop/image-hero-phone.png"/>
+    <img src="~/static/assets/home/desktop/bg-pattern-hero-home.svg"/>
+    <img src="~/static/assets/home/desktop/image-hero-phone.png"/>
     <div>
       <h1>Award-winning custom designs and digital branding solutions</h1>
       <p>
         With over 10 years in the industry, we are experienced in creating fully responsive websites, app design, and engaging brand experiences. Find out more about our services.
       </p>
-      <button class="btn-light">Learn more</button>
+      <NuxtLink to="our-company">
+        <button class="btn-light">Learn more</button>
+      </NuxtLink>
     </div>
   </section>
 </template>
@@ -52,6 +54,46 @@
     p {
       width: 445px;
       margin-bottom: 45px;
+    }
+
+    @media only screen and (max-width: $tablet-max-width-landscape) {
+      height: 843px;
+      text-align: center;
+      align-items: flex-start;
+      justify-content: center;
+
+      img {
+
+
+        &:first-of-type {
+          height: 640px;
+          top: 100px;
+          left: 170px;
+        }
+
+        &:last-of-type {
+          margin-left: auto;
+          margin-right: auto;
+          left: 0;
+          right: 0;
+          top: 285px;
+        }
+      }
+
+      div {
+        margin-left: 0;
+        margin-top: 65px;
+        z-index: 1;
+
+        h1 {
+          margin-bottom: 40px;
+        }
+
+        p {
+          width: 450px;
+          margin: 0 auto 25px;
+        }
+      }
     }
   }
 </style>

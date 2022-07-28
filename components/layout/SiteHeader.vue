@@ -1,12 +1,11 @@
 <template>
-  <header>
+  <header class="content-margin">
     <SiteNavbarDark/>
   </header>
 </template>
 
 <style lang="scss" scoped>
   header {
-    width: $container-width;
     margin: 0 auto;
 
     nav {
