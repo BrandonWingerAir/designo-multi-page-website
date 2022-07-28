@@ -41,17 +41,33 @@ section {
     align-items: center;
     border-radius: 20px;
 
+    &:hover {
+      cursor: pointer;
+    }
+
     &:first-of-type {
       grid-row: 1 / 3;
       background: $img-web-design-lg;
+
+      &:hover {
+        background: $img-web-design-lg-hover;
+      }
     }
 
     &:nth-of-type(2) {
       background: $img-app-design;
+
+      &:hover {
+        background: $img-app-design-hover;
+      }
     }
 
     &:last-of-type {
       background: $img-graphic-design;
+
+      &:hover {
+        background: $img-graphic-design-hover;
+      }
     }
 
     div {

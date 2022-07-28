@@ -15,7 +15,6 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 64px 0;
 
     img {
       width: 202px;
@@ -32,11 +31,15 @@
 
     a {
       color: $primary-white;
-      text-decoration: none;
       text-transform: uppercase;
       font-weight: 300;
       letter-spacing: 2px;
       margin-left: 40px;
+
+      &:hover {
+        text-decoration: underline;
+        text-decoration-color: #9e9e9e;
+      }
     }
   }
 </style>

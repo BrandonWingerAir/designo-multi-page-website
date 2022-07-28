@@ -1,30 +1,29 @@
 <template>
-  <footer>
-    <div class="content-margin">
-      <FooterContact/>
-      <SiteNavbarLight/>
-      <hr>
-      <div class="social-container">
-        <div>
-          <h4>Designo Central Office</h4>
-          <p>3886 Wellington Street</p>
-          <p>Toronto, Ontario M9C 3J5</p>
-        </div>
-        <div class="contact-info">
-            <h4>Contact Us (Central Office)</h4>
-            <a href="tel:+">P : +1 253-863-8967</a>
-            <a href="mailto:">M : contact@designo.co</a>
-        </div>
-        <div>
-          <a href="#!"><img src="~/static/assets/shared/desktop/icon-facebook.svg"></a>
-          <a href="#!"><img src="~/static/assets/shared/desktop/icon-youtube.svg"></a>
-          <a href="#!"><img src="~/static/assets/shared/desktop/icon-twitter.svg"></a>
-          <a href="#!"><img src="~/static/assets/shared/desktop/icon-pinterest.svg"></a>
-          <a href="#!"><img src="~/static/assets/shared/desktop/icon-instagram.svg"></a>
+    <footer>
+      <div class="content-margin">
+        <SiteNavbarLight/>
+        <hr>
+        <div class="social-container">
+          <div>
+            <h4>Designo Central Office</h4>
+            <p>3886 Wellington Street</p>
+            <p>Toronto, Ontario M9C 3J5</p>
+          </div>
+          <div class="contact-info">
+              <h4>Contact Us (Central Office)</h4>
+              <a href="tel:+">P : +1 253-863-8967</a>
+              <a href="mailto:">M : contact@designo.co</a>
+          </div>
+          <div>
+            <a href="#!"><img src="~/static/assets/shared/desktop/icon-facebook.svg"></a>
+            <a href="#!"><img src="~/static/assets/shared/desktop/icon-youtube.svg"></a>
+            <a href="#!"><img src="~/static/assets/shared/desktop/icon-twitter.svg"></a>
+            <a href="#!"><img src="~/static/assets/shared/desktop/icon-pinterest.svg"></a>
+            <a href="#!"><img src="~/static/assets/shared/desktop/icon-instagram.svg"></a>
+          </div>
         </div>
       </div>
-    </div>
-  </footer>
+    </footer>
 </template>
 
 <style lang="scss" scoped>
@@ -32,10 +31,10 @@ footer {
   background: $primary-black;
   width: 100%;
   height: 393px;
+  overflow:hidden;
 
-  > div:first-child {
-    position: relative;
-    top: -220px;
+  nav {
+    padding: 144px 0 45px;
   }
 
   hr {
@@ -70,6 +69,10 @@ footer {
 
       a {
         margin-left: 16px;
+
+        &:hover {
+          filter: brightness(125%);
+        }
       }
     }
   }

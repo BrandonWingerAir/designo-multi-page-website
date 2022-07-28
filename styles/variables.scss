@@ -1,4 +1,5 @@
 $primary-peach: #e7816b;
+$primary-peach-hover: rgba(#e7816b, .8);
 $primary-black: #1d1c1e;
 $primary-white: #ffffff;
 
@@ -25,9 +26,14 @@ $body-text-size: 16px;
 $body-font-weight: 400;
 $body-text-height: 26px;
 
-$img-web-design-lg: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)),
-  url('~/static/assets/home/desktop/image-web-design-large.jpg') no-repeat center center;
-$img-app-design: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)),
-  url('~/static/assets/home/desktop/image-app-design.jpg') no-repeat center center;
-$img-graphic-design: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)),
-  url('~/static/assets/home/desktop/image-graphic-design.jpg') no-repeat center center;
+$bg-web-design-lg:  url('~/static/assets/home/desktop/image-web-design-large.jpg') no-repeat center center;
+$img-web-design-lg: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), $bg-web-design-lg;
+$img-web-design-lg-hover: linear-gradient($primary-peach-hover, $primary-peach-hover), $bg-web-design-lg;
+
+$bg-app-design:  url('~/static/assets/home/desktop/image-app-design.jpg') no-repeat center center;
+$img-app-design: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), $bg-app-design;
+$img-app-design-hover: linear-gradient($primary-peach-hover, $primary-peach-hover), $bg-app-design;
+
+$bg-graphic-design:  url('~/static/assets/home/desktop/image-graphic-design.jpg') no-repeat center center;
+$img-graphic-design: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), $bg-graphic-design;
+$img-graphic-design-hover: linear-gradient($primary-peach-hover, $primary-peach-hover), $bg-graphic-design;

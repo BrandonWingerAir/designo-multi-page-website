@@ -1,9 +1,10 @@
 <template>
-  <div class="bg-image">
-    <div>
+  <div>
+    <div class="bg-image">
       <SiteHeader/>
       <Nuxt/>
     </div>
+    <FooterContact/>
     <SiteFooter/>
   </div>
 </template>
