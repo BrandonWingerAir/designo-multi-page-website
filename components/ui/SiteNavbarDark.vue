@@ -1,6 +1,6 @@
 <template>
   <nav>
-    <NuxtLink to="/"><img src="/assets/shared/desktop/logo-dark.png"/></NuxtLink>
+    <NuxtLink to="/"><img src="~/static/assets/shared/desktop/logo-dark.png"/></NuxtLink>
 
     <ul>
       <li><NuxtLink to="/our-company">Our Company</NuxtLink></li>

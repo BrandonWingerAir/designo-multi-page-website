@@ -1,7 +1,7 @@
 <template>
   <section>
-    <img id="circle-bg" src="/assets/home/desktop/bg-pattern-hero-home.svg"/>
-    <img id="phone-bg" src="/assets/home/desktop/image-hero-phone.png"/>
+    <img id="circle-bg" src="~/static/assets/home/desktop/bg-pattern-hero-home.svg"/>
+    <img id="phone-bg" src="~/static/assets/home/desktop/image-hero-phone.png"/>
     <div>
       <h1>Award-winning custom designs and digital branding solutions</h1>
       <p>

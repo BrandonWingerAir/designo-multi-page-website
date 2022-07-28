@@ -4,7 +4,7 @@
       <div>
         <h2>Web Design</h2>
         <NuxtLink to="/our-company">
-          View Projects <img src="/assets/shared/desktop/icon-right-arrow.svg" alt="">
+          View Projects <img src="~/static/assets/shared/desktop/icon-right-arrow.svg" alt="">
         </NuxtLink>
       </div>
     </div>
@@ -12,7 +12,7 @@
       <div>
         <h2>App Design</h2>
         <NuxtLink to="/our-company">
-          View Projects <img src="/assets/shared/desktop/icon-right-arrow.svg" alt="">
+          View Projects <img src="~/static/assets/shared/desktop/icon-right-arrow.svg" alt="">
         </NuxtLink>
       </div>
     </div>
@@ -20,7 +20,7 @@
       <div>
         <h2>Graphic Design</h2>
         <NuxtLink to="/our-company">
-          View Projects <img src="/assets/shared/desktop/icon-right-arrow.svg" alt="">
+          View Projects <img src="~/static/assets/shared/desktop/icon-right-arrow.svg" alt="">
         </NuxtLink>
       </div>
     </div>

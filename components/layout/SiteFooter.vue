@@ -16,11 +16,11 @@
             <a href="mailto:">M : contact@designo.co</a>
         </div>
         <div>
-          <a href="#!"><img src="/assets/shared/desktop/icon-facebook.svg"></a>
-          <a href="#!"><img src="/assets/shared/desktop/icon-youtube.svg"></a>
-          <a href="#!"><img src="/assets/shared/desktop/icon-twitter.svg"></a>
-          <a href="#!"><img src="/assets/shared/desktop/icon-pinterest.svg"></a>
-          <a href="#!"><img src="/assets/shared/desktop/icon-instagram.svg"></a>
+          <a href="#!"><img src="~/static/assets/shared/desktop/icon-facebook.svg"></a>
+          <a href="#!"><img src="~/static/assets/shared/desktop/icon-youtube.svg"></a>
+          <a href="#!"><img src="~/static/assets/shared/desktop/icon-twitter.svg"></a>
+          <a href="#!"><img src="~/static/assets/shared/desktop/icon-pinterest.svg"></a>
+          <a href="#!"><img src="~/static/assets/shared/desktop/icon-instagram.svg"></a>
         </div>
       </div>
     </div>

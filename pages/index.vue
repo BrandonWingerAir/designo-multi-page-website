@@ -20,7 +20,7 @@ main {
   left: 236px;
   height: 594px;
   width: 100%;
-  background: url('/assets/shared/desktop/bg-pattern-leaf.svg') center no-repeat;
+  background: url('~static/assets/shared/desktop/bg-pattern-leaf.svg') center no-repeat;
 }
 
 section {

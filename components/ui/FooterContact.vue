@@ -20,7 +20,7 @@
 
 <style lang="scss" scoped>
 section {
-  background: url('/assets/shared/desktop/bg-pattern-call-to-action.svg') no-repeat 235px center $primary-peach;
+  background: url('~static/assets/shared/desktop/bg-pattern-call-to-action.svg') no-repeat 235px center $primary-peach;
   height: 292px;
   border-radius: 15px;
   color: $primary-white;
