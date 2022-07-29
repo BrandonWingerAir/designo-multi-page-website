@@ -30,6 +30,7 @@ main {
   height: 594px;
   width: 100%;
   background: url('~static/assets/shared/desktop/bg-pattern-leaf.svg') center no-repeat;
+  transform: rotate(180deg);
 }
 
 
