@@ -3,8 +3,11 @@
 @import 'variables';
 @import 'mixins';
 
-body {
+html, body {
   overflow-x: hidden;
+}
+body {
+  position: relative
 }
 
 * {

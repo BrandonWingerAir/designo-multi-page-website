@@ -12,5 +12,9 @@
 <style lang="scss" scoped>
 .bg-image {
   background: url('~static/assets/shared/desktop/bg-pattern-leaf.svg') left 281px no-repeat;
+
+  @media only screen and (max-width: $tablet-max-width-landscape) {
+    background: initial;
+  }
 }
 </style>

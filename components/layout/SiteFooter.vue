@@ -76,5 +76,11 @@ footer {
       }
     }
   }
+
+  @media only screen and (max-width: $tablet-max-width-landscape) {
+    nav {
+      padding: 165px 0 45px;
+    }
+  }
 }
 </style>

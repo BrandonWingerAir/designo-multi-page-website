@@ -40,14 +40,14 @@ section {
     justify-content: center;
     align-items: center;
     border-radius: 20px;
+    background-size: cover;
 
     &:hover {
       cursor: pointer;
     }
 
     &:first-of-type {
-      grid-row: 1 / 3;
-      background: $img-web-design-lg;
+      @include home-web-design-card;
 
       &:hover {
         background: $img-web-design-lg-hover;
@@ -55,7 +55,7 @@ section {
     }
 
     &:nth-of-type(2) {
-      background: $img-app-design;
+      @include home-app-design-card;
 
       &:hover {
         background: $img-app-design-hover;
@@ -63,7 +63,7 @@ section {
     }
 
     &:last-of-type {
-      background: $img-graphic-design;
+      @include home-graphic-design-card;
 
       &:hover {
         background: $img-graphic-design-hover;
@@ -90,6 +90,15 @@ section {
       > img {
         margin-left: 10px;
       }
+    }
+  }
+
+  @media only screen and (max-width: $tablet-max-width-landscape) {
+    height: auto;
+    grid-template-columns: 1fr;
+
+    > div {
+      height: 200px;
     }
   }
 }

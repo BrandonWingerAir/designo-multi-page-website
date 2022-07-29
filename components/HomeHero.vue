@@ -63,8 +63,6 @@
       justify-content: center;
 
       img {
-
-
         &:first-of-type {
           height: 640px;
           top: 100px;

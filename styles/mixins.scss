@@ -9,3 +9,19 @@
   line-height: $heading-2-height;
   letter-spacing: $heading-2-spacing;
 }
+
+@mixin home-web-design-card {
+  grid-row: 1 / 3;
+  background: $img-web-design-lg;
+  background-size: cover;
+}
+
+@mixin home-app-design-card {
+  background: $img-app-design;
+  background-size: cover;
+}
+
+@mixin home-graphic-design-card {
+  background: $img-graphic-design;
+  background-size: cover;
+}
