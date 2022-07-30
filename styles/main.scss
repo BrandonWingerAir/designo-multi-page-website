@@ -26,10 +26,6 @@ a:hover, button:hover {
 .content-margin {
   width: $container-width;
   margin: 0 auto;
-
-  @media only screen and (max-width: $tablet-max-width-landscape) {
-    max-width: $container-width-tablet;
-  }
 }
 
 h2 {
@@ -53,5 +49,21 @@ p {
 
   &:hover {
     background: $secondary-light-peach;
+  }
+}
+
+@media only screen and (max-width: $tablet-max-width-landscape) {
+  .content-margin {
+    width: $container-width-tablet;
+  }
+}
+
+@media only screen and (max-width: $phone-max-width) {
+  .content-margin {
+    width: 100%;
+  }
+  .content-margin-phone {
+    width: $container-width-phone;
+    margin: 0 auto;
   }
 }

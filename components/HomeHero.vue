@@ -93,5 +93,10 @@
         }
       }
     }
+
+    @media only screen and (max-width: $phone-max-width) {
+      width: 100%;
+      border-radius: 0;
+    }
   }
 </style>

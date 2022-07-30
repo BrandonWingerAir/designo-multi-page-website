@@ -2,8 +2,8 @@
   <div>
       <main class="content-margin">
         <HomeHero/>
-        <HomeServices/>
-        <HomeFeatures/>
+        <HomeServices class="content-margin-phone"/>
+        <HomeFeatures class="content-margin-phone"/>
       </main>
       <div class="bg-img-bottom"></div>
   </div>
@@ -39,14 +39,12 @@ main {
     margin-bottom: 120px;
 
     &:last-of-type {
-      margin-bottom: 365px;
+      margin-bottom: 330px;
     }
   }
 
   .bg-img-bottom {
     background: none;
   }
-
-
 }
 </style>

@@ -20,25 +20,25 @@
       width: 202px;
       height: 27px;
     }
-  }
 
-  ul {
-    font-size: 14px;
-    height: 27px;
-    display: flex;
-    align-items: flex-end;
-    list-style: none;
+    ul {
+      font-size: 14px;
+      height: 27px;
+      display: flex;
+      align-items: flex-end;
+      list-style: none;
 
-    a {
-      color: $primary-white;
-      text-transform: uppercase;
-      font-weight: 300;
-      letter-spacing: 2px;
-      margin-left: 40px;
+      a {
+        color: $primary-white;
+        text-transform: uppercase;
+        font-weight: 300;
+        letter-spacing: 2px;
+        margin-left: 40px;
 
-      &:hover {
-        text-decoration: underline;
-        text-decoration-color: #9e9e9e;
+        &:hover {
+          text-decoration: underline;
+          text-decoration-color: #9e9e9e;
+        }
       }
     }
   }
