@@ -48,7 +48,6 @@
       height: 27px;
       display: flex;
       align-items: flex-end;
-      list-style: none;
 
       a {
         color: $secondary-dark-grey;

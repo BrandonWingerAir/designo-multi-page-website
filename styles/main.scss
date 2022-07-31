@@ -13,6 +13,7 @@ body {
 * {
   font-family: $font-text;
   margin: 0;
+  padding: 0;
 }
 
 a {
@@ -21,6 +22,10 @@ a {
 
 a:hover, button:hover {
   cursor: pointer;
+}
+
+ul {
+  list-style: none;
 }
 
 .content-margin {

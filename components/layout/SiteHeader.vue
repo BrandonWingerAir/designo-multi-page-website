@@ -1,7 +1,6 @@
 <template>
   <header class="content-margin">
-    <!-- <SiteNavbarDark :showMobileMenu="showMobileMenu" @showMobileMenu="showMobileMenu = true"/> -->
-    <SiteNavbarDark :navMenuOpen="navMenuOpen" @showMobileMenu="showMobileMenu = true; navMenuOpen = true" @closeMobileMenu="showMobileMenu = false; navMenuOpen = false"/>
+    <SiteNavbarDark :navMenuOpen="navMenuOpen" @showMobileMenu="openMobileNav" @closeMobileMenu="closeMobileNav"/>
     <NavMenuMobile v-show="showMobileMenu"/>
   </header>
 </template>
@@ -12,6 +11,16 @@ export default {
     return {
       showMobileMenu: false,
       navMenuOpen: false
+    }
+  },
+  methods: {
+    openMobileNav() {
+      this.showMobileMenu = true;
+      this.navMenuOpen = true;
+    },
+    closeMobileNav() {
+      this.showMobileMenu = false;
+      this.navMenuOpen = false
     }
   }
 }
