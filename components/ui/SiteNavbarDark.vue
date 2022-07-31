@@ -8,9 +8,24 @@
       <li><NuxtLink to="/contact">Contact</NuxtLink></li>
     </ul>
 
-    <img class="mobile-nav-btn" src="~/static/assets/shared/mobile/icon-hamburger.svg" alt=""/>
+    <img class="mobile-nav-btn" v-if="!navMenuOpen" src="~/static/assets/shared/mobile/icon-hamburger.svg" @click="showMobileMenu"/>
+    <img class="mobile-nav-btn" v-else src="~/static/assets/shared/mobile/icon-close.svg" @click="closeMobileMenu"/>
   </nav>
 </template>
+
+<script>
+  export default {
+    props: ['navMenuOpen'],
+    methods: {
+      showMobileMenu() {
+        this.$emit( 'showMobileMenu' )
+      },
+      closeMobileMenu() {
+        this.$emit( 'closeMobileMenu' )
+      }
+    }
+  }
+</script>
 
 <style lang="scss" scoped>
   nav {
@@ -47,6 +62,11 @@
           text-decoration-color: #9e9e9e;
         }
       }
+
+    }
+
+    .mobile-nav-btn {
+      display: none;
     }
 
     @media only screen and (max-width: $phone-max-width) {
@@ -63,6 +83,7 @@
       }
 
       .mobile-nav-btn {
+        display: initial;
         position: absolute;
         right: 24px;
       }
