@@ -37,14 +37,14 @@ $body-font-weight: 400;
 $body-text-height: 26px;
 
 // Services Card Backgrounds
-$bg-web-design-lg:  url('~static/assets/home/desktop/image-web-design-large.jpg') no-repeat center center;
+$bg-web-design-lg:  url('~static/assets/home/desktop/image-web-design-large.jpg');
 $img-web-design-lg: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), $bg-web-design-lg;
 $img-web-design-lg-hover: linear-gradient($primary-peach-hover, $primary-peach-hover), $bg-web-design-lg;
 
-$bg-app-design:  url('~static/assets/home/desktop/image-app-design.jpg') no-repeat center center;
+$bg-app-design:  url('~static/assets/home/desktop/image-app-design.jpg');
 $img-app-design: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), $bg-app-design;
 $img-app-design-hover: linear-gradient($primary-peach-hover, $primary-peach-hover), $bg-app-design;
 
-$bg-graphic-design:  url('~static/assets/home/desktop/image-graphic-design.jpg') no-repeat center center;
+$bg-graphic-design:  url('~static/assets/home/desktop/image-graphic-design.jpg');
 $img-graphic-design: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), $bg-graphic-design;
 $img-graphic-design-hover: linear-gradient($primary-peach-hover, $primary-peach-hover), $bg-graphic-design;
