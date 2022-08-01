@@ -1,8 +1,10 @@
 <template>
   <section>
     <img src="~/static/assets/home/desktop/bg-pattern-hero-home.svg"/>
-    <img src="~/static/assets/home/desktop/image-hero-phone.png"/>
-    <div>
+    <div class="bg-img-container">
+      <img src="~/static/assets/home/desktop/image-hero-phone.png">
+    </div>
+    <div class="text-container">
       <h1>Award-winning custom designs and digital branding solutions</h1>
       <p>
         With over 10 years in the industry, we are experienced in creating fully responsive websites, app design, and engaging brand experiences. Find out more about our services.
@@ -28,20 +30,20 @@
 
     img {
       position: absolute;
-
-      &:first-of-type {
-        height: 100%;
-        top: 0;
-        right: 0;
-      }
-
-      &:last-of-type {
-        top: -30px;
-        right: -60px;
-      }
     }
 
-    div {
+    > img {
+      height: 100%;
+      top: 0;
+      right: 0;
+    }
+
+    .bg-img-container img {
+      top: -30px;
+      right: -60px;
+    }
+
+    .text-container {
       width: 540px;
     }
 
@@ -64,14 +66,14 @@
       padding-top: 65px;
       padding-left: 0;
 
-      img {
-        &:first-of-type {
-          height: 640px;
-          top: 100px;
-          left: 170px;
-        }
+      > img {
+        height: 640px;
+        top: 100px;
+        left: 170px;
+      }
 
-        &:last-of-type {
+      .bg-img-container {
+        img {
           margin-left: auto;
           margin-right: auto;
           left: 0;
@@ -80,7 +82,7 @@
         }
       }
 
-      div {
+      .text-container {
         z-index: 1;
 
         h1 {
@@ -97,29 +99,33 @@
     @media only screen and (max-width: $phone-max-width) {
       width: 100%;
       border-radius: 0;
-      padding-top: 80px;
+      padding-top: 78px;
       height: 843px;
 
-      img {
-        &:first-of-type {
-          left: 0;
-        }
+      > img {
+        left: 0;
+      }
 
-        &:last-of-type {
-          width: 100%;
-          transform: scale(1.65);
-          top: 485px;
+      .bg-img-container {
+        top: 302px;
+        height: 843px;
+        background: url('~static/assets/home/desktop/image-hero-phone.png') center top;
+        width:100%;
+        position:absolute;
+
+        img {
+          visibility: hidden;
         }
       }
 
-      div {
+      .text-container {
         padding: 0 25px;
 
         h1 {
           font-size: 32px;
           font-weight: 500;
           line-height: 36px;
-          margin-bottom: 32px;
+          margin-bottom: 30px;
         }
 
         p {
