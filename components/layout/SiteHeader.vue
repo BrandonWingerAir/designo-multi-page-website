@@ -17,12 +17,16 @@ export default {
     openMobileNav() {
       this.showMobileMenu = true;
       this.navMenuOpen = true;
-      document.querySelector("html").style.overflowY = "hidden";
+
+      document.querySelector('html').classList.add("mobile-nav-prevent-scroll");
+      document.querySelector('body').classList.add("mobile-nav-prevent-scroll");
     },
     closeMobileNav() {
       this.showMobileMenu = false;
       this.navMenuOpen = false
-      document.querySelector("html").style.overflowY = "initial";
+
+      document.querySelector('html').classList.remove("mobile-nav-prevent-scroll");
+      document.querySelector('body').classList.remove("mobile-nav-prevent-scroll");
     }
   }
 }

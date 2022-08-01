@@ -6,8 +6,9 @@
 html, body {
   overflow-x: hidden;
 }
+
 body {
-  position: relative
+  position: relative;
 }
 
 * {
@@ -55,6 +56,12 @@ p {
   &:hover {
     background: $secondary-light-peach;
   }
+}
+
+.mobile-nav-prevent-scroll {
+  height: 100%;
+  overflow: hidden;
+  // position: fixed;
 }
 
 @media only screen and (max-width: $tablet-max-width-landscape) {
