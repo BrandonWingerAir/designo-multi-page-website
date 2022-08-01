@@ -24,6 +24,7 @@
     background-color: $primary-peach;
     color: $primary-white;
     border-radius: 15px;
+    padding-left: 76px;
 
     img {
       position: absolute;
@@ -42,7 +43,6 @@
 
     div {
       width: 540px;
-      margin-left: 76px;
     }
 
     h1 {
@@ -61,6 +61,8 @@
       text-align: center;
       align-items: flex-start;
       justify-content: center;
+      padding-top: 65px;
+      padding-left: 0;
 
       img {
         &:first-of-type {
@@ -79,8 +81,6 @@
       }
 
       div {
-        margin-left: 0;
-        margin-top: 65px;
         z-index: 1;
 
         h1 {
@@ -97,6 +97,38 @@
     @media only screen and (max-width: $phone-max-width) {
       width: 100%;
       border-radius: 0;
+      padding-top: 80px;
+      height: 843px;
+
+      img {
+        &:first-of-type {
+          left: 0;
+        }
+
+        &:last-of-type {
+          width: 100%;
+          transform: scale(1.65);
+          top: 485px;
+        }
+      }
+
+      div {
+        padding: 0 25px;
+
+        h1 {
+          font-size: 32px;
+          font-weight: 500;
+          line-height: 36px;
+          margin-bottom: 32px;
+        }
+
+        p {
+          width: 100%;
+          font-size: 15px;
+          line-height: 25px;
+          margin-bottom: 25px;
+        }
+      }
     }
   }
 </style>

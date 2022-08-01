@@ -24,10 +24,10 @@ div {
     background: $primary-black;
     height: 235px;
     padding-left: 24px;
-    padding-top: 50px;
+    padding-top: 35px;
 
     li {
-      margin-bottom: 35px;
+      margin-bottom: 25px;
 
       a {
         color: $primary-white;
