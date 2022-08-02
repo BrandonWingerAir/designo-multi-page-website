@@ -40,7 +40,7 @@ section {
   text-align: center;
   position: relative;
 
-  div {
+  > div {
     padding: 0 12px;
 
     .background-img {
@@ -81,14 +81,14 @@ section {
   @media only screen and (max-width: $tablet-max-width-landscape) {
     grid-template-columns: 1fr;
 
-    div {
+    > div {
       display: flex;
       align-items: center;
       padding: 0;
+      text-align: left;
 
       div {
         display: block;
-        text-align: left;
         margin-left: 50px;
 
         h3 {
@@ -98,6 +98,26 @@ section {
 
         p {
           width: 440px;
+        }
+      }
+    }
+  }
+
+  @media only screen and (max-width: $phone-max-width) {
+    > div {
+      display: block;
+      text-align: center;
+
+      div {
+        margin: 40px 0 80px;
+
+        h3 {
+          margin-bottom: 40px;
+        }
+
+        p {
+          width: 100%;
+          line-height: 26px;
         }
       }
     }
