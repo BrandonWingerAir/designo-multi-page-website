@@ -1,5 +1,5 @@
 <template>
-  <div class="section-container">
+  <div class="section-container content-margin-phone">
     <section class="content-margin">
       <div class="card-container">
         <div>
@@ -65,7 +65,6 @@
       height: 350px;
       top: -265px;
       text-align: center;
-
       background-position: -30px center;
 
       .card-container {
@@ -86,6 +85,35 @@
         &:last-of-type {
           justify-content: center;
           padding-top: 35px;
+        }
+      }
+    }
+  }
+
+  @media only screen and (max-width: $phone-max-width) {
+    section {
+      height: 379px;
+      background-position: -240px center;
+    }
+
+    section .card-container {
+      padding: 65px 25px 0;
+      display: block;
+
+      &:last-of-type {
+        padding-top: 30px;
+      }
+
+      h2 {
+        font-size: 32px;
+        letter-spacing: 1px;
+      }
+
+      p {
+        font-size: 15px;
+
+        br {
+          display: none;
         }
       }
     }
