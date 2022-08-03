@@ -130,18 +130,27 @@ section {
       height: 250px;
 
       &:first-of-type {
-        background-position: -204px bottom;
-        background-size: 600px;
+        @include home-web-design-card-phone;
+
+        &:hover {
+          background: $img-web-design-phone-hover;
+        }
       }
 
       &:nth-of-type(2) {
-        background-position: center center;
-        background-size: 580px;
+        @include home-app-design-card-phone;
+
+        &:hover {
+          background: $img-app-design-phone-hover;
+        }
       }
 
       &:last-of-type {
-        background-position: -50px top;
-        background-size: 620px;
+        @include home-graphic-design-card-phone;
+
+        &:hover {
+          background: $img-graphic-design-phone-hover;
+        }
       }
 
       h2 {

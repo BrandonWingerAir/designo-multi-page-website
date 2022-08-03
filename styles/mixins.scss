@@ -10,6 +10,9 @@
   letter-spacing: $heading-2-spacing;
 }
 
+
+// Home - Services section background images
+// Desktop
 @mixin home-web-design-card {
   grid-row: 1 / 3;
   background: $img-web-design-lg;
@@ -26,6 +29,7 @@
   background-size: cover;
 }
 
+// Tablet
 @mixin home-web-design-card-tablet {
   background: $img-web-design-tablet;
 }
@@ -36,4 +40,20 @@
 
 @mixin home-graphic-design-card-tablet {
   background: $img-graphic-design-tablet;
+}
+
+// Phone
+@mixin home-web-design-card-phone {
+  background: $img-web-design-phone;
+  background-size: cover;
+}
+
+@mixin home-app-design-card-phone {
+  background: $img-app-design-phone;
+  background-size: cover;
+}
+
+@mixin home-graphic-design-card-phone {
+  background: $img-graphic-design-phone;
+  background-size: cover;
 }
