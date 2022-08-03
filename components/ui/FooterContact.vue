@@ -94,6 +94,7 @@
     section {
       height: 379px;
       background-position: -240px center;
+      top: -192px;
     }
 
     section .card-container {

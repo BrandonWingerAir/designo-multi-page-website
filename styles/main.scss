@@ -3,12 +3,14 @@
 @import 'variables';
 @import 'mixins';
 
-html, body {
+html {
+  max-width: 100vw;
   overflow-x: hidden;
-}
 
-body {
-  position: relative;
+  body {
+    position: relative;
+    overflow-x: hidden;
+  }
 }
 
 * {

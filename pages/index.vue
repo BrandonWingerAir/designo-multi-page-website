@@ -47,4 +47,10 @@ main {
     background: none;
   }
 }
+
+@media only screen and (max-width: $phone-max-width) {
+  main > section:last-of-type {
+    margin-bottom: 230px;
+  }
+}
 </style>

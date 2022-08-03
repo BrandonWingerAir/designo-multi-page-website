@@ -33,10 +33,6 @@ footer {
   height: 393px;
   overflow:hidden;
 
-  nav {
-    padding: 144px 0 45px;
-  }
-
   hr {
     margin-bottom: 36px;
     border: none;
@@ -65,7 +61,7 @@ footer {
     > :last-child {
       display: flex;
       justify-content: flex-end;
-      align-items: flex-end;
+      align-items: center;
 
       a {
         margin-left: 16px;
@@ -79,9 +75,36 @@ footer {
 
   @media only screen and (max-width: $tablet-max-width-landscape) {
     height: 423px;
+  }
 
-    nav {
-      padding: 165px 0 45px;
+  @media only screen and (max-width: $phone-max-width) {
+    height: 100%;
+
+    hr {
+      display: none;
+    }
+
+    .social-container {
+      display: block;
+      text-align: center;
+      line-height: 26px;
+      margin-bottom: 50px;
+
+      div {
+        margin-bottom: 35px;
+      }
+
+      .contact-info a {
+        font-weight: 500;
+      }
+
+      > :last-child {
+        justify-content: center;
+
+        a {
+          margin: 0 8px;
+        }
+      }
     }
   }
 }
