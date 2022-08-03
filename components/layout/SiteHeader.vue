@@ -19,12 +19,14 @@ export default {
       this.navMenuOpen = true;
 
       document.querySelector('html').classList.add("mobile-nav-prevent-scroll");
+      document.querySelector('body').classList.add("mobile-nav-prevent-scroll");
     },
     closeMobileNav() {
       this.showMobileMenu = false;
       this.navMenuOpen = false
 
       document.querySelector('html').classList.remove("mobile-nav-prevent-scroll");
+      document.querySelector('body').classList.remove("mobile-nav-prevent-scroll");
     }
   }
 }

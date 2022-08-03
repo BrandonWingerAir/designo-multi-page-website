@@ -100,15 +100,27 @@ section {
       height: 200px;
 
       &:first-of-type {
-        background-position: center bottom;
+        @include home-web-design-card-tablet;
+
+        &:hover {
+          background: $img-web-design-tablet-hover;
+        }
       }
 
       &:nth-of-type(2) {
-        background-position: center -90px;
+        @include home-app-design-card-tablet;
+
+        &:hover {
+          background: $img-app-design-tablet-hover;
+        }
       }
 
       &:last-of-type {
-        background-position: center top;
+        @include home-graphic-design-card-tablet;
+
+        &:hover {
+          background: $img-graphic-design-tablet-hover;
+        }
       }
     }
   }

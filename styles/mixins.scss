@@ -25,3 +25,15 @@
   background: $img-graphic-design;
   background-size: cover;
 }
+
+@mixin home-web-design-card-tablet {
+  background: $img-web-design-tablet;
+}
+
+@mixin home-app-design-card-tablet {
+  background: $img-app-design-tablet;
+}
+
+@mixin home-graphic-design-card-tablet {
+  background: $img-graphic-design-tablet;
+}
