@@ -44,7 +44,7 @@ main {
   }
 
   .bg-img-bottom {
-    background: none;
+    display: none;
   }
 }
 

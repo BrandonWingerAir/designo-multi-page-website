@@ -80,6 +80,7 @@ section {
 
   @media only screen and (max-width: $tablet-max-width-landscape) {
     grid-template-columns: 1fr;
+    grid-template-rows: 252px;
 
     > div {
       display: flex;
@@ -104,6 +105,8 @@ section {
   }
 
   @media only screen and (max-width: $phone-max-width) {
+    grid-template-rows: 500px;
+
     > div {
       display: block;
       text-align: center;
