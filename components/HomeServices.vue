@@ -2,25 +2,31 @@
   <section>
     <div>
       <div>
-        <h2>Web Design</h2>
-        <NuxtLink to="/our-company">
-          View Projects <img src="~/static/assets/shared/desktop/icon-right-arrow.svg" alt="">
+        <NuxtLink to="/web-design">
+          <h2>Web Design</h2>
+          <h3>
+            View Projects <img src="~/static/assets/shared/desktop/icon-right-arrow.svg" alt="">
+          </h3>
         </NuxtLink>
       </div>
     </div>
     <div>
       <div>
-        <h2>App Design</h2>
-        <NuxtLink to="/our-company">
-          View Projects <img src="~/static/assets/shared/desktop/icon-right-arrow.svg" alt="">
+        <NuxtLink to="/app-design">
+          <h2>App Design</h2>
+          <h3>
+            View Projects <img src="~/static/assets/shared/desktop/icon-right-arrow.svg" alt="">
+          </h3>
         </NuxtLink>
       </div>
     </div>
     <div>
       <div>
-        <h2>Graphic Design</h2>
-        <NuxtLink to="/our-company">
-          View Projects <img src="~/static/assets/shared/desktop/icon-right-arrow.svg" alt="">
+        <NuxtLink to="/graphic-design">
+          <h2>Graphic Design</h2>
+          <h3>
+            View Projects <img src="~/static/assets/shared/desktop/icon-right-arrow.svg" alt="">
+          </h3>
         </NuxtLink>
       </div>
     </div>
@@ -40,10 +46,6 @@ section {
     justify-content: center;
     align-items: center;
     border-radius: 20px;
-
-    &:hover {
-      cursor: pointer;
-    }
 
     &:first-of-type {
       @include home-web-design-card;
@@ -73,6 +75,10 @@ section {
       text-align: center;
       color: $primary-white;
       text-transform: uppercase;
+
+      &:hover {
+        cursor: pointer;
+      }
     }
 
     h2 {
