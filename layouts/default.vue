@@ -2,7 +2,7 @@
   <div>
     <div class="bg-image">
       <SiteHeader/>
-      <Nuxt/>
+      <Nuxt class="content-margin"/>
     </div>
     <FooterContact/>
     <SiteFooter/>

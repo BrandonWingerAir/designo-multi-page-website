@@ -1,6 +1,6 @@
 <template>
   <div>
-      <main class="content-margin">
+      <main>
         <HomeHero/>
         <HomeServices class="content-margin-phone"/>
         <HomeFeatures class="content-margin-phone"/>
