@@ -1,7 +1,14 @@
 <template>
   <div>
     <h1>Locations</h1>
-    <h2>Coming Soon</h2>
+    <div id="map-wrap" style="height: 100%">
+      <client-only>
+        <l-map :zoom=15 :center="[43.6350219,-79.4012992]">
+          <l-tile-layer url="http://{s}.tile.osm.org/{z}/{x}/{y}.png"></l-tile-layer>
+          <l-marker :lat-lng="[43.6350219,-79.4012992]"></l-marker>
+        </l-map>
+      </client-only>
+    </div>
   </div>
 </template>
 
